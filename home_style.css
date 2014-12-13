@@ -1,0 +1,172 @@
+html {
+	margin: 0;
+	padding: 0;
+	}
+body { 
+	background: #D1D2D4; 
+	padding: 0;
+}
+
+.line img {
+	position: fixed;
+	padding-left: 855px;
+	bottom: -230px;
+	z-index: -1;
+}
+
+.information h1 {
+	background: black;
+	color: white;
+	font-family: "Adventure Subtitles";
+	max-width: 300px;
+	margin-left: 150px;
+	padding-left: 175px;
+	padding-right: 175px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	box-shadow: 10px 10px 5px #888888;
+	border-top: 2px solid #570055;
+	border-left: 2px solid #570055;
+	border-right:2px solid #570055;
+	border-bottom: 2px solid #570055;
+	
+
+}
+
+.information p {
+	color: #231F20;
+	width: 475px;
+	text-align: center;
+	font-weight: bold;
+	margin-left: 150px;
+	background: #F1F1F2;
+	padding-left: 87px;
+	padding-right: 88px;
+	padding-top: 20px;
+	padding-bottom: 25px;
+	margin-top: -25px;
+	box-shadow: 10px 10px 5px #888888;
+	font-family: "Corbel";
+	border-top: 2px solid #570055;
+	border-left: 2px solid #570055;
+	border-right:2px solid #570055;
+	border-bottom: 2px solid #570055;
+}
+
+.people h1 {
+	background: black;
+	text-align: center;
+	font-family: "Adventure Subtitles";
+	max-width: 300px;
+	margin-left: 150px;
+	padding-left: 175px;
+	padding-right: 175px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	box-shadow: 10px 10px 5px #888888;
+	color: white;
+	border-top: 2px solid #570055;
+	border-left: 2px solid #570055;
+	border-right:2px solid #570055;
+	border-bottom: 2px solid #570055;
+	
+}
+
+.people p {
+	color: #231F20;
+	width: 475px;
+	text-align: justify;
+	font-family: sans-serif;
+	font-weight: bold;
+	margin-left: 150px;
+	background: #F1F1F2;
+	padding-left: 87px;
+	padding-right: 88px;
+	padding-top: 20px;
+	padding-bottom: 25px;
+	margin-top: -25px;
+	box-shadow: 10px 10px 5px #888888;
+	border-top: 2px solid #570055;
+	border-left: 2px solid #570055;
+	border-right:2px solid #570055;
+	border-bottom: 2px solid #570055;
+	position: absolute;
+	z-index: 0;
+
+}
+
+nav { 
+	display: block;
+	font-size: 32px;
+	font-family: sans-serif;
+	border-top: 40px solid #808284;
+	border-left: 30px solid #808284;
+	border-right:30px solid #808284;
+	border-bottom: 40px solid #808284;
+	width: 300px;
+	text-shadow: 1px 1px 3px #570055;
+	position: fixed;
+	top: 200px;
+    right: 124px;
+    background:#D1D2D4;
+    z-index: -2;
+
+}
+ 
+
+nav ul {
+	/*list-style-type: none;*/
+	/*border: 1px solid red ;*/
+	margin-left: -50px;
+	margin-bottom: -10px;
+	margin-top: 10px;
+
+}
+
+nav ul li {
+/*	background-color: red; */
+	margin-bottom: 10px; 
+	border-bottom: 2px solid #808284;
+	list-style-position: inside;
+	list-style-image: url(alien2.png);
+	list-style-type: none;
+	letter-spacing: 1.5px;
+	padding-bottom: 10px;
+	padding-left: 21px;
+	font-family: "Adventure Subtitles";
+}
+
+nav ul li a:link {
+	color: #E6E7E8;
+	text-decoration: none;
+}
+
+nav ul li a:hover {
+	color: yellow;
+	text-decoration: none;
+}
+nav ul li a:visited {
+    color: #E6E7E8;
+    text-decoration: none;
+}
+
+.head1 {
+	margin-bottom: 2px;
+	margin-left: 155px;
+	position: absolute;
+	z-index: 1;
+}
+
+.head2 {
+	margin-left: 155px;
+	margin-top: 90px;
+	position: absolute;
+	z-index: 1;
+}
+
+.head3 {
+	margin-left: 155px;
+	margin-top: 180px;
+	position: absolute;
+	z-index: 1;
+}

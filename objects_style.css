@@ -1,0 +1,197 @@
+html {
+	margin: 0;
+	padding: 0;
+	}
+body { 
+	background: #D1D2D4; 
+	padding: 0;
+}
+
+nav { 
+	display: block;
+	font-size: 32px;
+	border-top: 40px solid #808284;
+	border-left: 30px solid #808284;
+	border-right:30px solid #808284;
+	border-bottom: 40px solid #808284;
+	width: 300px;
+	text-shadow: 1px 1px 3px #570055;
+	position: fixed;
+	top: 200px;
+    right: 124px;
+    background:#D1D2D4;
+    z-index: -2;
+
+}
+ 
+
+nav ul {
+	/*list-style-type: none;*/
+	/*border: 1px solid red ;*/
+	margin-left: -50px;
+	margin-bottom: -10px;
+	margin-top: 10px;
+
+}
+
+nav ul li {
+/*	background-color: red; */
+	margin-bottom: 10px; 
+	border-bottom: 2px solid #808284;
+	list-style-position: inside;
+	list-style-image: url(alien2.png);
+	list-style-type: none;
+	letter-spacing: 1.5px;
+	padding-bottom: 10px;
+	padding-left: 21px;
+	font-family: "Adventure Subtitles";
+}
+
+nav ul li a:link {
+	color: #E6E7E8;
+	text-decoration: none;
+}
+
+nav ul li a:hover {
+	color: yellow;
+	text-decoration: none;
+}
+nav ul li a:visited {
+    color: #E6E7E8;
+    text-decoration: none;
+}
+
+.info1 p {
+	background: black;
+	color: white;
+	text-align: justify;
+	font-family: "Adventure Subtitles";
+	font-size: 22px;
+    margin-left: 49px;
+    margin-right: 540px;
+    margin-top: 50px;
+    box-shadow: 10px 10px 5px #888888;
+    padding-left: 35px;
+    padding-bottom:20px;
+    padding-top: 20px;
+    border: 2px #570055 solid;
+    letter-spacing: 1.5px;
+
+}
+
+.PDP1 img {
+	margin-left: 152px;
+	margin-right: 450px;
+	margin-top: -25px;
+	border: 50px solid #F1F1F2;
+	border-bottom-width: 125px;
+	outline: 2px #570055 solid;
+	box-shadow: 10px 10px 5px #888888;
+	position: absolute;
+	right: 100px;
+
+
+}
+
+.caption1 p {
+	font-family: "Adventure Subtitles";
+	font-size: 38px;
+	color: black;
+	z-index: 100;
+	position: absolute;
+	padding-top: 525px;
+	/*margin-left: 250px;*/
+	left: 150px;
+}
+
+.info2 p {
+	background: black;
+	color: white;
+	text-align: justify;
+	font-family: "Adventure Subtitles";
+	font-size: 22px;
+    margin-left: 49px;
+    margin-right: 540px;
+    margin-top: 800px;
+    box-shadow: 10px 10px 5px #888888;
+    padding-left: 35px;
+    padding-bottom:20px;
+    padding-top: 20px;
+    border: 2px #570055 solid;
+    letter-spacing: 1.5px;
+
+}
+
+.cole img {
+	/*margin-left: 152px;*/
+	margin-right: 400px;
+	margin-top: -25px;
+	border: 50px solid #F1F1F2;
+	border-bottom-width: 125px;
+	outline: 2px #570055 solid;
+	box-shadow: 10px 10px 5px #888888;
+	position: absolute;
+	right: 150px;
+
+}
+
+.caption2 p {
+	font-family: "Adventure Subtitles";
+	font-size: 38px;
+	color: black;
+	z-index: 100;
+	position: absolute;
+	padding-top: 525px;
+	margin-left: 300px;
+}
+
+.line {
+	
+	position: fixed;
+	padding-left: 855px;
+	bottom: -230px;
+	z-index: -1;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    z-index: -2;
+    list-style-position: outside;
+	list-style-image: url(little_yellow.png);
+	list-style-type: none;
+	width: 865px;
+	top: 2200px;
+	left: 0;
+}
+
+footer li{
+	font-family: "Corbel";
+	color: #570055;
+	letter-spacing: .2px;
+	font-size: 18px;
+	padding: 10px;
+}
+
+h1 {
+	background: black;
+	color: white;
+	margin-top: -10px;
+	padding-left: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-family: "Adventure Subtitles";
+	font-size: 32px;
+}
+
+.header {
+	font-family: "Adventure Subtitles";
+	font-size: 32px;
+	text-align: left;
+	padding-left: 50px;
+	top: 10px;
+	font-color: black;
+	z-index: 10;
+	text-shadow: 1px 1px 3px white;
+}
